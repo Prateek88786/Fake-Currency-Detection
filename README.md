@@ -37,11 +37,6 @@ git clone https://github.com/prateek88786/fake-currency-detection.git
 cd fake-currency-detection
 ```
 
-### 2️⃣ **Install Dependencies**  
-```bash
-pip install -r requirements.txt
-```
-
 ### 3️⃣ **Run the Jupyter Notebook**  
 ```bash
 jupyter notebook
