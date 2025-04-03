@@ -33,7 +33,7 @@ The dataset is organized as follows:
 
 ### 1️⃣ **Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/fake-currency-detection.git
+git clone https://github.com/prateek88786/fake-currency-detection.git
 cd fake-currency-detection
 ```
 
