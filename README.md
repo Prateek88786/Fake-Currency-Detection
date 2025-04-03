@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 ```
-Open `notebook.ipynb` and follow the training and testing steps.
+Open `Fake Currency Detection.ipynb` and follow the training and testing steps.
 
 ---
 
@@ -59,10 +59,10 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 
 # Load the trained model
-model = tf.keras.models.load_model("model/final_model.keras")
+model = tf.keras.models.load_model("best_simplified_discriminator.keras")
 
 # Test on a new image
-img_path = "test_samples/fake_500.jpg"
+img_path = "test_samples/fake_500.jpg" #enter your test image path
 img = image.load_img(img_path, target_size=(128, 128))
 img_array = image.img_to_array(img) / 255.0
 img_array = np.expand_dims(img_array, axis=0)
